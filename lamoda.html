@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="lamoda.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="container">
+                <div class="top-list">
+                    <i class="fa-solid fa-location-arrow fa-lg" style="color: #ffffff;"></i>
+                    <a href="#">г. Можайск, д. Москва</a>
+                </div>
+                <div class="top-list">
+                    <i class="fa-solid fa-car fa-lg" style="color: #ffffff;"></i>
+                    <a href="#">Больше способов доставки</a>
+                </div>
+                <div class="top-list">
+                    <i class="fa-solid fa-credit-card fa-lg" style="color: #ffffff;"></i>
+                    <a href="#">Платите когда хотите</a>
+                </div>
+                <div class="top-list">
+                    <i class="fa-solid fa-shop fa-lg" style="color: #ffffff;"></i>
+                    <a href="#">Магазины Lamoda Sport</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="menubar">
+                    <ul>
+                        <li><a href="#">Женщинам</a></li>
+                        <li><a href="#" class="active">Мужчинам <div class="hr"></div></a></li>
+                        <li><a href="#">Детям</a></li>
+                    </ul>
+                </div>
+                <div class="brand-logo">
+                    <img src="https://images.seeklogo.com/logo-png/35/3/lamoda-ru-logo-png_seeklogo-356842.png" alt="">
+                </div>
+                <div class="signbar">
+                    <button>Войти</button>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="bag.png" alt="">Корзина</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bootom-ul">
+                    <ul>
+                        <li><a href="#">Идеи</a></li>
+                        <li><a href="#">Новинки</a></li>
+                        <li><a href="#">Одежда</a></li>
+                        <li><a href="#">Обувь</a></li>
+                        <li><a href="#">Аксессуары</a></li>
+                        <li><a href="#">Бренды</a></li>
+                        <li><a href="#">Premium</a></li>
+                        <li><a href="#">Спорт</a></li>
+                        <li><a href="#">Resale</a></li>
+                        <li><a href="#">Красота</a></li>
+                        <li><a href="#">Дом</a></li>
+                        <li><a href="#" style="color: red;">Sale%</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="search">
+                        <div class="search-box">
+                            <div class="search-field">
+                                <input placeholder="Поиск" class="input" type="text">
+                                <div class="search-box-icon">
+                                    <button class="btn-icon-content">
+                                        <i class="search-icon">
+                                            <svg xmlns="://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+                                                <path
+                                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                                                    fill="#fff"></path>
+                                            </svg>
+                                        </i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="carousel-s">
+            <div class="container">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                    data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://a.lmcdn.ru/bs2/6/66/17881122_2.jpg" class="d-block" alt="...">
+                            <h4><a href="#">Коллекции прошлых сезонов</a></h4>
+                            <h4><a href="#">с максимальной выгодой</a></h4>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a.lmcdn.ru/bs2/7/27/m_1788x1122_prem.jpg" class="d-block" alt="...">
+                            <h4><a href="#">Только сегодня</a></h4>
+                            <h4><a href="#">Успейте купить выгодно</a></h4>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a.lmcdn.ru/bs2/7/49/m_1788x1122_main.jpg" class="d-block" alt="...">
+                            <h4><a href="#">Покупайте мировые бренды</a></h4>
+                            <h4><a href="#">по выгодным ценам</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="img-rec">
+                <img src="https://a.lmcdn.ru/bs2/6/90/m_796x630_2_keds.jpg" alt="">
+                <h4>Кроссовки и кеды</h4>
+                <h4>Городские легенды</h4>
+            </div>
+            <div class="img-rec2">
+                <img src="https://a.lmcdn.ru/bs2/3/13/m_796x630_tiz.jpg" alt="">
+                <h4>Кроссовки и кеды</h4>
+                <h4>Городские легенды</h4>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <div>
+                    <h4><a href="#">Категории<i class="fa-solid fa-chevron-right"></i></a></h4>
+                    <div class="grid">
+                        <div class="category-item">
+                            <div class="category-text">Футболки и поло</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/2512_tshirts_m.jpeg"
+                                alt="T-shirt">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Брюки</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/517_trousers_m.jpeg"
+                                alt="Pants">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Россия: с любовью</div>
+                            <img src="https://a.lmcdn.ru/resize/cms/600x866/main_page/category_collection/russia_with_love_m_304%D1%85304.jpg"
+                                alt="Russia">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Шорты</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/519_shorts_m.png"
+                                alt="Shorts">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Джинсы</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/513_jeans_m.jpeg"
+                                alt="Jeans">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Аксессуары</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/559_glasses_m.jpeg"
+                                alt="Accessories">
+                        </div>
+                    </div>
+
+                    <div class="grid">
+                        <div class="category-item">
+                            <div class="category-text">Кроссовки и кеды</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/1393_sneakers_m.jpeg"
+                                alt="Sneakers">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Верхняя одежда</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/479_outwear2_m.jpeg"
+                                alt="Outerwear">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Розничная сеть</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/lamoda_sport.png"
+                                alt="Retail">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Худи и свитшоты</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/2508_hoodie_m.jpeg"
+                                alt="Hoodies">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Рубашки</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/515_shirts_m.jpeg"
+                                alt="Shirts">
+                        </div>
+
+                        <div class="category-item">
+                            <div class="category-text">Сумки</div>
+                            <img src="https://a.lmcdn.ru/files/cms/main_page/category_collection/591_bags_m.jpeg"
+                                alt="Bags">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="carousel-s1">
+            <div class="container">
+                <div class="grid1">
+                    <div class="small-item">
+                        <img src="https://a.lmcdn.ru/bs2/4/99/m_796x630_6_sunglasses.jpg" alt="Очки">
+                        <h4>Солнцезащитные очки</h4>
+                        <span>Новые оправы</span>
+                    </div>
+
+                    <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://a.lmcdn.ru/bs2/9/99/m_1788x1122_4f15ea9b0342432bb168d08194c4565b.jpg"
+                                    class="d-block w-100" alt="Slide 1">
+                                <div class="carousel-caption">
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://a.lmcdn.ru/bs2/9/12/founds_sale_m_1788x1122_3-1.jpg"
+                                    class="d-block w-100" alt="Slide 2">
+                                <div class="carousel-caption">
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://a.lmcdn.ru/bs2/6/11/m_17881122_5_3_streetwear.jpg"
+                                    class="d-block w-100" alt="Slide 3">
+                                <div class="carousel-caption">
+                                    <p></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="small-item2">
+                        <img src="https://a.lmcdn.ru/bs2/9/50/m_796x630_7_sweatshots.jpg" alt="Свитшот">
+                        <h4>Толстовки и свитшоты</h4>
+                        <span>Любимая база</span>
+                    </div>
+
+                    <div class="bottom-link">
+                        <a href="#">
+                            На большие размеры
+                            <span>&rarr;</span>
+                            Купить
+                        </a>
+                        <div class="pagination">
+                            &larr; 1 / 3 &rarr;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-s2">
+            <div class="container">
+                <h2>Образы <span>&gt;</span></h2>
+                <div class="filters">
+                    <button>Спорт</button>
+                    <button>На каждый день</button>
+                    <button>Офис</button>
+                    <button>Вечеринка</button>
+                    <button>Premium</button>
+                </div>
+                <div class="cards">
+                    <div class="card1">
+                        <div class="top">
+                            <div class="circle">la</div>
+                            <div class="text">
+                                <p>Подобрано стилистом</p>
+                                <span>На каждый день</span>
+                            </div>
+                        </div>
+                        <img src="https://a.lmcdn.ru/resize/cms/600x866/get_the_look/gallery_images/IMG_1648_30-07-2025.jpg"
+                            alt="Look 1">
+                        <div class="likes">
+                            <span><i class="fa-regular fa-thumbs-up fa-2xl"></i></span> <span>8</span>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="top">
+                            <div class="circle">la</div>
+                            <div class="text">
+                                <p>Подобрано стилистом</p>
+                                <span>На каждый день</span>
+                            </div>
+                        </div>
+                        <img src="https://a.lmcdn.ru/resize/cms/600x866/get_the_look/gallery_images/IMG_1016_30-07-2025.jpg"
+                            alt="Look 2">
+                        <div class="likes">
+                            <span><i class="fa-regular fa-thumbs-up fa-2xl"></i></span> <span>5</span>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="top">
+                            <div class="circle">la</div>
+                            <div class="text">
+                                <p>Подобрано стилистом</p>
+                                <span>На каждый день</span>
+                            </div>
+                        </div>
+                        <img src="https://a.lmcdn.ru/resize/cms/600x866/get_the_look/gallery_images/IMG_0627_21-07-2025.jpg"
+                            alt="Look 3">
+                        <div class="likes">
+                            <span><i class="fa-regular fa-thumbs-up fa-2xl"></i></span> <span>10</span>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="top">
+                            <div class="circle">la</div>
+                            <div class="text">
+                                <p>Подобрано стилистом</p>
+                                <span>На каждый день</span>
+                            </div>
+                        </div>
+                        <img src="https://a.lmcdn.ru/resize/cms/600x866/get_the_look/gallery_images/IMG_0534_21-07-2025.jpg"
+                            alt="Look 4">
+                        <div class="likes">
+                            <span><i class="fa-regular fa-thumbs-up fa-2xl"></i></span> <span>13</span>
+                        </div>
+                        <div class="arrow"><span>&#8250;</span></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="container">
+                <div class="header">Журнал ></div>
+                <div class="main-section">
+                    <div class="main-text">
+                        <h2>Как бегать в жару? Инструкция по безопасности от Александра Сторожева</h2>
+                        <p>7 вопросов, которые важно задать себе перед тренировкой</p>
+                    </div>
+                    <div class="main-image">
+                        <img src="https://a.lmcdn.ru/files/cms/magazine/8508879/images/DD-18851_cover.gif"
+                            alt="Running man">
+                        <div class="category-label">Спорт</div>
+                    </div>
+                </div>
+                <div class="sub-section">
+                    <div class="sub-article">
+                        <img src="https://a.lmcdn.ru/files/cms/magazine/8508879/images/LBLOG-1996_cover.jpg" alt="">
+                        <div class="category-label fashion">Мода</div>
+                        <div class="sub-article-title">Сериал «Офис» в реальной жизни. Выбирайте цитату по настроению, а
+                            мы
+                            предложим вам рабочий дресс-код</div>
+                    </div>
+                    <div class="sub-article">
+                        <div class="category-label sport">Спорт</div>
+                        <div class="sub-article-title">Увеличивает ноги, «убивает» колени — эти и другие 8 мифов о беге
+                            разъясняет тренер Анастасия Шишмакова</div>
+                    </div>
+                    <div class="sub-article">
+                        <img src="https://a.lmcdn.ru/files/cms/magazine/8508879/images/LBLOG-1975_cover.jpg" alt="">
+                        <div class="category-label heroes">Герои</div>
+                        <div class="sub-article-title">Дайджест июля: чем заняться, если вы остаетесь в городе</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="container">
+                <h2>Популярное</h2>
+                <div class="products">
+                    <div class="product-card">
+                        <img src="https://a.lmcdn.ru/img236x341/R/T/RTLAEB850401_26778414_1_v3_2x.jpg"
+                            alt="Armani Exchange Бомбер">
+                        <span class="discount">-43%</span>
+                        <span class="favorite">&#9825;</span>
+                        <div class="prices">
+                            <span class="old-price">38 000</span>
+                            <span class="new-price">21 660 ₽</span>
+                        </div>
+                        <div class="product-name">Armani Exchange</div>
+                        <div class="product-desc">Бомбер</div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://a.lmcdn.ru/img236x341/R/T/RTLAEH817001_27522069_1_v1_2x.jpg"
+                            alt="United Colors of Benetton Рубашка">
+                        <span class="discount">-59%</span>
+                        <span class="favorite">&#9825;</span>
+                        <div class="prices">
+                            <span class="old-price">8 359</span>
+                            <span class="new-price">3 344 ₽</span>
+                        </div>
+                        <div class="product-name">United Colors of Benetton</div>
+                        <div class="product-desc">Рубашка</div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://a.lmcdn.ru/img236x341/R/T/RTLAEL926701_28724545_1_v1_2x.jpg"
+                            alt="Calvin Klein Jeans Куртка-рубашка">
+                        <span class="discount">-30%</span>
+                        <span class="favorite">&#9825;</span>
+                        <div class="prices">
+                            <span class="old-price">18 199</span>
+                            <span class="new-price">12 730 ₽</span>
+                        </div>
+                        <div class="product-name">Calvin Klein Jeans</div>
+                        <div class="product-desc">Куртка-рубашка</div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://a.lmcdn.ru/img236x341/R/T/RTLADT170401_24548401_1_v1.jpg"
+                            alt="Befree Лонгслив">
+                        <span class="discount">-20%</span>
+                        <span class="favorite">&#9825;</span>
+                        <div class="prices">
+                            <span class="old-price">3 209</span>
+                            <span class="new-price">2 531 ₽</span>
+                        </div>
+                        <div class="product-name">Befree</div>
+                        <div class="product-desc">Лонгслив</div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://a.lmcdn.ru/img236x341/R/T/RTLAEI036201_28683839_1_v1_2x.jpg"
+                            alt="Tendance Мокасины">
+                        <span class="discount">-55%</span>
+                        <span class="favorite">&#9825;</span>
+                        <div class="prices">
+                            <span class="old-price">15 380</span>
+                            <span class="new-price">6 920 ₽</span>
+                        </div>
+                        <div class="product-name">Tendance</div>
+                        <div class="product-desc">Мокасины</div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://a.lmcdn.ru/img236x341/R/T/RTLAEJ994401_28580235_1_v1_2x.jpg"
+                            alt="NexPero Кеды">
+                        <span class="discount">-65%</span>
+                        <span class="favorite">&#9825;</span>
+                        <div class="prices">
+                            <span class="old-price">10 990</span>
+                            <span class="new-price">3 840 ₽</span>
+                        </div>
+                        <div class="product-name">NexPero</div>
+                        <div class="product-desc">Кеды</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="container">
+                <h2>Актуально</h2>
+                <div class="cards">
+                    <div class="card4">
+                        <img src="https://a.lmcdn.ru/bs2/4/99/m_796x630_6_sunglasses.jpg" alt="Солнцезащитные очки">
+                        <div class="card-title">Солнцезащитные очки</div>
+                        <div class="card-subtitle">Новые оправы</div>
+                    </div>
+                    <div class="card4">
+                        <img src="https://a.lmcdn.ru/bs2/7/67/m_768x858_9_sweatshots.jpg" alt="Толстовки и свитшоты">
+                        <div class="card-title">Толстовки и свитшоты</div>
+                        <div class="card-subtitle">Любимая база</div>
+                    </div>
+                    <div class="card4">
+                        <img src="https://a.lmcdn.ru/bs2/2/21/m_768x858_10_belts.jpg" alt="Ремни">
+                        <div class="card-title">Ремни</div>
+                        <div class="card-subtitle">Фактура: кожа и замша</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <!-- Newsletter -->
+        <div class="footer-block">
+          <div class="footer-title">Скидка 10% за подписку<br>на новинки и акции</div>
+          <form class="footer-form mb-2">
+            <input type="email" placeholder="Email">
+            <button type="submit">Подписаться</button>
+          </form>
+          <small><a href="#">Условия акции</a></small>
+          <div class="footer-qr">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=90x90&data=https://lamoda.ru" alt="QR">
+            <small>Скидка 10% на первый заказ<br>в приложении Lamoda</small>
+          </div>
+        </div>
+        <!-- Help -->
+        <div class="footer-block">
+          <div class="footer-title">Помощь</div>
+          <ul class="footer-list">
+            <li><a href="#">Статус заказа по номеру</a></li>
+            <li><a href="#">Мои заказы</a></li>
+            <li><a href="#">Условия доставки</a></li>
+            <li><a href="#">Магазины Lamoda Sport</a></li>
+            <li><a href="#">Возврат</a></li>
+            <li><a href="#">Как оформить заказ</a></li>
+            <li><a href="#">Как выбрать размер</a></li>
+            <li><a href="#">Центр поддержки Lamoda</a></li>
+            <li><a href="#">Lamoda и мошенничество</a></li>
+            <li><a href="#">Часто задаваемые вопросы</a></li>
+            <li><a href="#">Lamoda club</a></li>
+            <li><a href="#">Подарочные сертификаты</a></li>
+          </ul>
+        </div>
+        <!-- Partners -->
+        <div class="footer-block">
+          <div class="footer-title">Партнерам</div>
+          <ul class="footer-list">
+            <li><a href="#">Lamoda Seller Academy</a></li>
+            <li><a href="#">Стать продавцом маркетплейса</a></li>
+            <li><a href="#">Стать подрядчиком Lamoda</a></li>
+            <li><a href="#">Стать подрядчиком складских операций</a></li>
+            <li><a href="#">Стать подрядчиком транспортных услуг</a></li>
+            <li><a href="#">Арендодателям</a></li>
+            <li><a href="#">Подтверждение сертификатов для бизнеса</a></li>
+          </ul>
+        </div>
+        <!-- Legal -->
+        <div class="footer-block">
+          <div class="footer-title">Правовая информация</div>
+          <ul class="footer-list">
+            <li><a href="#">Публичная оферта</a></li>
+            <li><a href="#">Пользовательское соглашение</a></li>
+            <li><a href="#">Сотрудничество</a></li>
+            <li><a href="#">Политика по работе с персональными данными</a></li>
+            <li><a href="#">Конфиденциальная информация</a></li>
+            <li><a href="#">Комплаенс</a></li>
+            <li><a href="#">Устойчивое развитие</a></li>
+          </ul>
+        </div>
+        <!-- About -->
+        <div class="footer-block">
+          <div class="footer-title">О нас</div>
+          <ul class="footer-list">
+            <li><a href="#">Новости компании</a></li>
+            <li><a href="#">Устойчивое развитие</a></li>
+            <li><a href="#">Журнал</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Bottom -->
+    <div class="footer-bottom">
+      <div class="footer-container">
+        <div class="footer-country">
+          <img src="https://flagcdn.com/ru.svg" alt="Россия">
+          <span>Россия</span>
+          <span style="margin-left:16px;"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="VK" width="20"></span>
+          <span style="margin-left:16px;">Мобильная версия</span>
+        </div>
+        <div class="footer-payments">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mir-logo.svg" alt="Mir">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard">
+          <span style="margin-left:12px;">Доступны другие способы оплаты</span>
+        </div>
+        <div class="footer-nav">
+          <button class="active">Женщинам</button>
+          <button>Мужчинам</button>
+          <button>Девочкам</button>
+          <button>Мальчикам</button>
+          <button>Подборки</button>
+          <button>Бренды</button>
+          <button>О компании</button>
+        </div>
+        <div class="footer-description">
+          Lamoda — это онлайн-платформа для модного шопинга. Здесь собраны более 4 тысяч мировых и российских брендов и более 5 миллионов товаров: одежда, обувь, косметика, товары для детей и дома. Быстрая доставка, примерка перед покупкой, программа скидок и бонусов — мы делаем всё, чтобы шопинг был приятным и удобным.
+        </div>
+        <div class="footer-logos">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Lamoda_logo.svg" alt="Lamoda" height="28">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Акции" height="28">
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
